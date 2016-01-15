@@ -1,3 +1,9 @@
 body {
- background-image: url("leaf.jpg") 
+background-image: url("leaf.jpg") 
+}
+h1 {
+color:forestgreen;
+}
+p{
+color:darkmagenta;
 }
