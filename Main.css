@@ -1,18 +1,25 @@
+html { 
+   border: 4px dotted;
+   border-color: darkmagenta;
+}
 body {
 background-image: url("leaf.jpg") 
 }
 h1 {
-color:green;
-}
-h2 {
-    color:midnightblue;
-}
-section{
+   color:green;
     background-color:lightyellow;
 }
+h2 {
+    color:darkmagenta;
+}
 p{
-   color:darkmagenta;
+   color:midnightblue;
    font-size:large; 
 }
 ul {font-size:medium;
+}
+footer { 
+    border: 1px dotted; 
+    border-color: darkmagenta;
+    background-color: lightyellow;
 }
