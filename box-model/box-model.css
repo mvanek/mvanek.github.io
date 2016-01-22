@@ -20,6 +20,7 @@ header {
 }
 h1 {
     margin: 0px;
+    font-size:35px;
     
 }
 h3{
@@ -33,28 +34,46 @@ footer {
     margin: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
-    font-size: larger;    
-}
-.article-copy {
-    font-size:larger;
-}       
+}      
 img {
     border: 1px dashed;
     padding: 10px;
+    float:left;
+    clear:right; 
+    margin-right: 10px;
 }
 h4 {
     margin:5px;
+
 }
+
 .inline-block { 
       display:inline-block;
     background-color: slategrey;
     color: white;
     padding:10px;
-    border-radius:10px;
+    border-radius:5px;
     padding-left:25px;
     padding-right:25px;
-    font-size:larger;
     margin-top: 10px;
-    margin-left:10px;
+    font-size:large;
+    text-decoration: none;
+    
 }
+.left-block {display:inline-block;
+    background-color: slategrey;
+    color: white;
+    padding:10px;
+    border-radius:5px;
+    padding-left:25px;
+    padding-right:25px;
+    font-size:large;
+    margin-top: 10px;
+    margin-left:10px; 
+    text-decoration: none;
+}
+p {
+    font-size:14.25px;
+}
+*{ font-family: verdana;
 }
