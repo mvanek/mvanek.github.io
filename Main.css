@@ -1,6 +1,7 @@
 html { 
-   border: 4px dotted;
+   border: 5px double;
    border-color: darkmagenta;
+    padding: 4px;
 }
 body {
 background-image: url("leaf.jpg") 
@@ -8,11 +9,20 @@ background-image: url("leaf.jpg")
 h1 {
    color:green;
     background-color:lightyellow;
-    border-radius:40px 0 40px 0;
-    padding: 5px
+    border-radius:20px 0 20px 0;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid;
+    border-color: darkmagenta;
+    margin-bottom: 4px;
 }
 h2 {
+    display:inline-block;
     color:darkmagenta;
+    border-bottom: 4px double;
+    border-color:forestgreen;
+    margin-bottom: 5px;   
+        
 }
 p{
    color:midnightblue;
@@ -24,9 +34,20 @@ footer {
     border: 1px dotted; 
     border-color: darkmagenta;
     background-color: lightyellow;
-    border-radius: 40px 0 40px 0;
+    border-radius: 10px 0px 10px 0px;
+    display:inline-block;
 }
-nav {
-    border-radius: 20px 0 20px 0;
-    Background-color:lightyellow;
+.inline-block { 
+    display:inline-block;
+    border-radius:10px 0px 10px 0px;
+    Background-color:darkmagenta;
+    color:lightyellow;
+    padding: 5px;
+    text-decoration: none;
+
+}
+.me {
+    border: 5px double;
+    border-color:forestgreen;
+    border-radius: 50px 0px 50px 0px;
 }
