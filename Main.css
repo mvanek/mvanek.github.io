@@ -1,53 +1,65 @@
 html { 
    border: 5px double;
-   border-color: darkmagenta;
+   border-color: forestgreen;
     padding: 4px;
 }
 body {
-background-image: url("leaf.jpg");
+background-image: url("woods.jpg");
 }
 h1 {
-   color:green;
-    background-color:lightyellow;
+   color:white;
+    background-color:darkmagenta;
     border-radius:20px 0 20px 0;
     padding: 5px;
     display: inline-block;
     border: 1px solid;
-    border-color: darkmagenta;
+    border-color: forestgreen;
     margin-bottom: 4px;
 }
+
 h2 {
     display:inline-block;
-    color:darkmagenta;
-    border-bottom: 4px double;
+    color:white;
+    border-bottom: 5px double;
     border-color:forestgreen;
     margin-bottom: 5px;   
         
 }
 p{
-   color:midnightblue;
-   font-size:large; 
+   color:white;
+   font-size:larger; 
 }
+
 ul {font-size:medium;
 }
+
 footer { 
     border: 1px dotted; 
     border-color: darkmagenta;
-    background-color: lightyellow;
+    background-color: lightpink;
     border-radius: 10px 0px 10px 0px;
     display:inline-block;
 }
+
 .inline-block { 
     display:inline-block;
     border-radius:10px 0px 10px 0px;
-    Background-color:darkmagenta;
-    color:lightyellow;
+    Background-color:forestgreen;
+    color:white;
     padding: 5px;
     text-decoration: none;
 
 }
+
 .me {
     border: 5px double;
     border-color:forestgreen;
     border-radius: 50px 0px 50px 0px;
+}
+ul {
+    color:white;
+    font-size: larger;
+}
+.link{
+    color:greenyellow;
 }
