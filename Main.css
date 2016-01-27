@@ -29,7 +29,7 @@ h2 {
 p{
    color:darkblue;
    font-size:larger; 
-    margin:7px;
+    margin-bottom: 5px;
 }
 
 ul {font-size:medium;
@@ -58,6 +58,7 @@ footer {
     border-color:deeppink;
     border-radius: 50px 50px 50px 50px;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 ul {
