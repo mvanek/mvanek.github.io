@@ -71,13 +71,11 @@ ul {
 }
 
 #header {
-    width: 100%;
     height: 150px;
     background-image: url(flowers.jpg);
     padding: 10px;
     margin-bottom:5px;
     border-bottom:5px double darkcyan;
-    display:inline-block;
     
 }
 .space {
