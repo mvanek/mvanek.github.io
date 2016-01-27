@@ -57,6 +57,7 @@ footer {
     border: 5px double;
     border-color:deeppink;
     border-radius: 50px 50px 50px 50px;
+    margin-right: 10px;
 }
 
 ul {
