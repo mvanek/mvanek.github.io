@@ -12,7 +12,7 @@ h1 {
     border-radius:5px;
     padding: 5px;
     display: inline-block;
-    border: 1px solid;
+    border: 5px double;
     border-color: seagreen;
     margin-bottom: 4px;
     font-size: 30px;
