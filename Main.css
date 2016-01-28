@@ -1,28 +1,27 @@
 html {
-    border: 5px double seagreen;
+    border-bottom: 10px double yellowgreen
 }
-
 body {
-background-image: url("greenstripes.jpg");
+background-image: url(polkadots.png);
     margin: 0px;
 }
 
 h1 {
-   color:seagreen;
-    background-color:white;
-    border-radius:20px 0 20px 0;
+   color:coral;
+    background-color:lightyellow;
+    border-radius:10px 10px 10px 10px;
     padding: 5px;
     display: inline-block;
     border: 1px solid;
-    border-color: deeppink;
+    border-color: seagreen;
     margin-bottom: 4px;
 }
 
 h2 {
     display:inline-block;
-    color:darkblue;
+    color:#ff7733;
     border-bottom: 5px double;
-    border-color:deeppink;
+    border-color:yellowgreen;
     margin-bottom: 5px;   
 }
 
@@ -37,17 +36,17 @@ ul {font-size:medium;
 
 footer { 
     border: 1px solid; 
-    border-color: palegreen;
+    border-color: seagreen;
     background-color: seagreen;
-    border-radius: 5px 0px 5px 0px;
+    border-radius: 5px 5px 5px 5px;
     display:inline-block;
-    color: white;
+    color: lightyellow;
 }
 
 .inline-block { 
     display:inline-block;
-    border-radius:10px 0px 10px 0px;
-    color:white;
+    border-radius:5px 5px 5px 5px;
+    color:lightyellow;
     padding: 5px;
     text-decoration: none;
     background-color: seagreen;
@@ -55,7 +54,7 @@ footer {
 
 .me {
     border: 5px double;
-    border-color:deeppink;
+    border-color:seagreen;
     border-radius: 50px 50px 50px 50px;
     margin-right: 10px;
     margin-left: 10px;
@@ -63,21 +62,29 @@ footer {
 
 ul {
     color:darkblue;
-    font-size: larger;
-    background-color: 
+    font-size: larger; 
 }
 
 .link{
-    color:deeppink;
+    color:orangered;
 }
 
 #header {
     height: 150px;
-    background-image: url(flowers.jpg);
+    background-image: url(cutestripes.jpeg);
     padding: 10px;
-    margin-bottom:5px;
-    border-bottom:5px double darkcyan;
+    margin-bottom:10px;
+    border-bottom:10px double yellowgreen;
+    text-align: center;
+    font-size: 50px
 }
+
 .space {
     margin-left: 10px;
+}
+
+.welcome {
+    margin-top: 10px;
+    border: 3px solid seagreen;
+    padding:5px;
 }
