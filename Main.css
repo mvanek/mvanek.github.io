@@ -23,17 +23,20 @@ h2 {
     color:#ff7733;
     border-bottom: 5px double;
     border-color:yellowgreen;
-    margin-bottom: 0px;   
+    margin-bottom: 0px;
+    font-size:25px;
 }
 
 p{
    color:darkblue;
-   font-size:larger; 
-    margin-bottom: 5px;
+   font-size:large; 
+    margin-bottom: 15px;
     margin-top: 10px;
+    font-family:sans-serif
 }
 
 ul {font-size:medium;
+    font-family: sans-serif
 }
 
 footer { 
@@ -61,11 +64,13 @@ footer {
     border-radius: 50px 50px 50px 50px;
     margin-right: 10px;
     margin-left: 10px;
+    float:right;
+    clear:left;
 }
 
 ul {
     color:darkblue;
-    font-size: larger; 
+    font-size: large; 
 }
 
 .link{
