@@ -1,0 +1,50 @@
+* {
+  box-sizing:border-box;
+    font-family: sans-serif;
+}
+.main-container{
+    width:900px;
+    margin: 0 auto 0 auto;
+}
+
+.promo-container{
+  background:lightgray;  
+}
+
+header {
+    display:flex;
+}
+
+.branding {
+    background: black;
+    width:150px;
+    height:45px;
+    margin-right: auto;
+}
+
+header a {
+    display: inline-block;
+    background:white;
+    padding: 3px 40px;
+    border: 1px solid black;
+    border-radius:20px;
+    text-decoration: none;
+    color:black;
+}
+#big-promo {
+  padding-top:125px;  
+   
+}
+   
+.promo-message {
+    width:60%;
+    padding:50px; 
+}
+#big-promo a {
+    background:white;
+    padding: 5px 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black; 
+}
