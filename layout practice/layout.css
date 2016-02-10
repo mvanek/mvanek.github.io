@@ -15,7 +15,7 @@
 
 header {
     display:flex;
-    
+    margin: 10px;
 }
 
 .branding {
@@ -23,6 +23,7 @@ header {
     width:150px;
     height:45px;
     margin-right: auto;
+    margin-left:50px;
 }
 
 .pill-button {
@@ -35,7 +36,7 @@ header {
     color:black;
 }
 #big-promo {
-  padding-top:125px;  
+  padding-top:65px;  
 }
    
 .promo-message {
@@ -59,4 +60,38 @@ header {
 }
 #big-promo h1 {
     font-size:33px;
+}
+
+/* Product Features */
+
+.product-features {
+ display:flex;
+    border-right:1px solid black;
+    border-left:1px solid black;
+}
+
+.feature {
+    text-align: center;
+    padding:40px;
+}
+
+.feature-image{
+    width:200px;
+    height: 200px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+}
+
+.buy-it-now {
+    display:flex;
+     border-right:1px solid black;
+    border-left:1px solid black;
+    border-bottom: 1px solid black;
+   align-content: center;
+}
+
+.product-info {
+    text-align: right;
+    
 }
