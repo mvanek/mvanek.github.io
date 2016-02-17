@@ -70,6 +70,10 @@ header {
     border-left:1px solid black;
 }
 
+.product-image{
+    margin: 40px;
+
+}
 .feature {
     text-align: center;
     padding:40px;
@@ -93,6 +97,10 @@ header {
 
 .product-info {
     text-align: right;
+
+    margin-bottom: 30px;
+   padding: 20px;
+    
     
 }
 #product-reviews {
@@ -102,4 +110,30 @@ header {
     background-color:grey;
     padding: 50px;
     text-align: center;
+}
+footer {
+    display:flex;
+    background:white;
+     border-right:1px solid black;
+    border-left: 1px solid black;
+    border-bottom:1px solid black;
+    padding:15px 10px 15px 10px;
+    font-size:12px;
+}
+.footer_links {
+    flex: 1; 
+}
+
+.footer_links a {
+       text-decoration: none;
+    color:black;  
+    margin: 15px;
+}
+
+.copyright {
+    flex;1;
+}
+
+.copyright p{
+    margin:0;
 }
