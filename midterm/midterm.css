@@ -76,14 +76,13 @@
 #third-box {
     border:5px solid black;
     width:960px;
-    height:570px;
     margin-left: 25%;
     padding:20px;
     
 }
 .green-blue {
     display:flex;
-    align-items: stretch; 
+height: 395px;
    
 }
 
@@ -91,13 +90,13 @@
     background:red;
     width:920px;
     height:120px;
-    margin-bottom:20px;
+   margin-bottom:20px;
 
 }
 
 .green-left {
     background:green;
-    height:395px;
+
     width:175px;
     margin-right: 20px;
 }
@@ -105,5 +104,4 @@
 .blue-right {
     background:blue;
     width: 730px;
-    height:395px;
 }
