@@ -1,9 +1,150 @@
-html {
-    border-bottom: 10px double yellowgreen
+*{
+    box-sizing: border-box;
 }
-body {
-background-image: url(polkadots.png);
-    margin: 0px;
+#wrap {
+    position:absolute;
+    left:0;
+    right:0;
+    margin:auto;  
+    border: 5px double yellowgreen;
+    width: 800px;
+    background-image: url(polkadots.png);
+    height:2000px;
+}
+
+#box-1 { 
+	position: fixed;
+	width: 100%;
+	height: 100px;
+    top: 15%;
+    margin-top: -100px;
+    left: 0;
+	background-color:powderblue;
+}
+
+#box-2 { 
+	position: fixed;
+	width: 100%;
+	height: 100px;
+    top: 35%;
+    margin-top: -100px;
+    left: 0;
+	background-color:powderblue;
+}
+
+#box-3 { 
+	position: fixed;
+	width: 100%;
+	height: 100px;
+    top: 55%;
+    margin-top: -100px;
+    left: 0;
+	background-color:powderblue;
+}
+
+#box-4 { 
+	position: fixed;
+	width: 100%;
+	height: 100px;
+    top: 75%;
+    margin-top: -100px;
+    left: 0;
+	background-color:powderblue;
+}
+
+#box-5 { 
+	position: fixed;
+	width: 100%;
+	height: 100px;
+    top: 95%;
+    margin-top: -100px;
+    left: 0;
+	background-color:powderblue;
+}
+
+#header {
+    position: relative;
+    height: 150px;
+    background-image: url(cutestripes.jpeg);
+    padding: 25px;
+    margin-bottom:10px;
+    border-bottom:10px double yellowgreen;
+    text-align: center;
+}
+
+.welcome {
+    width:225px;
+    margin-top: 1px;
+    border: 3px solid seagreen;
+    font-size: 50px;
+    border-radius: 10px;
+    position:absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    color:coral;
+    background-color:lightyellow;
+    border-radius:5px;
+    padding: 5px;
+}
+
+.welcome2 {
+    width:425px;
+    margin-top: 1px;
+    border: 3px solid seagreen;
+    font-size: 50px;
+    border-radius: 10px;
+    position:absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    color:coral;
+    background-color:lightyellow;
+    border-radius:5px;
+    padding: 5px;
+}
+.inline-block {
+    border-radius:5px 5px 5px 5px;
+    color:lightyellow;
+    padding: 5px;
+    text-decoration: none;
+    background-color: seagreen;
+    position:absolute;
+    top:110px;
+    left:20px;
+}
+
+.inline-block2 {
+    border-radius:5px 5px 5px 5px;
+    color:lightyellow;
+    padding: 5px;
+    text-decoration: none;
+    background-color: seagreen;
+    position:absolute;
+    top:110px;
+    left:75px;
+}
+
+.intro-inline-block2 {
+    border-radius:5px 5px 5px 5px;
+    color:lightyellow;
+    padding: 5px;
+    text-decoration: none;
+    background-color: seagreen;
+    position:absolute;
+    top:110px;
+    left:155px;
+}
+
+.inline-block3 {
+    border-radius:5px 5px 5px 5px;
+    color:lightyellow;
+    padding: 5px;
+    text-decoration: none;
+    background-color: seagreen;
+    position:absolute;
+    top:110px;
+    left:187px;
 }
 
 h1 {
@@ -39,33 +180,11 @@ ul {font-size:medium;
     font-family: sans-serif
 }
 
-footer { 
-    border: 1px solid; 
-    border-color: seagreen;
-    background-color: seagreen;
-    border-radius: 5px 5px 5px 5px;
-    display:inline-block;
-    color: lightyellow;
-    padding: 1px;
-}
-
-.inline-block { 
-    display:inline-block;
-    border-radius:5px 5px 5px 5px;
-    color:lightyellow;
-    padding: 5px;
-    text-decoration: none;
-    background-color: seagreen;
-    position: relative;
-    bottom: 50px;
-}
-
 .me {
     border: 5px double;
     border-color:yellowgreen;
-    border-radius: 50px 50px 50px 50px;
-    margin-right: 10px;
-    margin-left: 10px;
+    border-radius: 50px;
+    margin:15px;
     float:right;
     clear:left;
 }
@@ -79,27 +198,17 @@ ul {
     color:#ff7733;
 }
 
-#header {
-    height: 150px;
-    background-image: url(cutestripes.jpeg);
-    padding: 25px;
-    margin-bottom:10px;
-    border-bottom:10px double yellowgreen;
-    text-align: center;
-}
-
-.space {
-    margin-left: 10px;
-}
-
-.welcome {
-    margin-top: 10px;
-    border: 3px solid seagreen;
-    padding: 7px;
-    font-size: 100px;
-    border-radius: 10px;
-}
 .move{
-    position: relative;
-    bottom: 20px;
+    margin:10px;
+}
+
+footer { 
+    border: 1px solid; 
+    border-color: seagreen;
+    background-color: seagreen;
+    border-radius: 5px 5px 5px 5px;
+    display:inline-block;
+    color: lightyellow;
+    padding: 1px;
+    margin:30px;
 }
