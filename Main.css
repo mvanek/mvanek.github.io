@@ -9,7 +9,8 @@
     border: 5px double yellowgreen;
     width: 900px;
     background-image: url(polkadots.png);
-    height:2000px;
+    height:2000
+        px;
 }
 
 #box-1 { 
@@ -292,7 +293,11 @@ ul {
 }
 
 .movea{
-    margin-top:35px;
+    margin-top:50px;
+}
+
+.centered{
+    margin-left:80px;
 }
 
 footer { 
