@@ -1,15 +1,81 @@
 * {
   box-sizing:border-box;
-    font-family: sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
 }
+
+#all{
+    position: absolute;
+    left:0;
+    right:0;
+    margin:auto;
+}
+
+#box-1 { 
+	position: fixed;
+	width: 100%;
+	height: 100px;
+    top: 15%;
+    margin-top: -100px;
+    left: 0;
+	background-color:greenyellow;
+}
+
+#box-2 { 
+	position: fixed;
+	width: 100%;
+	height: 100px;
+    top: 35%;
+    margin-top: -100px;
+    left: 0;
+	background-color:powderblue;
+}
+
+#box-3 { 
+	position: fixed;
+	width: 100%;
+	height: 100px;
+    top: 55%;
+    margin-top: -100px;
+    left: 0;
+	background-color:greenyellow;
+}
+
+#box-4 { 
+	position: fixed;
+	width: 100%;
+	height: 100px;
+    top: 75%;
+    margin-top: -100px;
+    left: 0;
+	background-color:powderblue;
+}
+
+#box-5 { 
+	position: fixed;
+	width: 100%;
+	height: 100px;
+    top: 95%;
+    margin-top: -100px;
+    left: 0;
+	background-color:greenyellow;
+}
+
+#wrap{
+    position:absolute;
+    left:0;
+    right:0;
+    margin:auto;  
+}
+
 .main-container{
     width:900px;
     margin: 0 auto 0 auto;
 }
 
 .promo-container{
-  background:lightgray; 
-    border: 1px solid black;
+  background-image:url(sprinkles.png); 
+    border: 1px solid pink;
     
 }
 
@@ -19,9 +85,8 @@ header {
 }
 
 .branding {
-    background: black;
-    width:150px;
-    height:45px;
+    width:200px;
+    height:200px;
     margin-right: auto;
     margin-left:50px;
 }
@@ -30,24 +95,25 @@ header {
     display: inline-block;
     background:white;
     padding: 3px 40px;
-    border: 1px solid black;
+    border: 1px solid pink;
     border-radius:20px;
     text-decoration: none;
     color:black;
 }
 #big-promo {
-  padding-top:65px;  
+    padding-top:0px;
 }
    
 .promo-message {
     width:60%;
-    padding:50px; 
+    padding-left:50px;
+    padding-bottom:50px;
 }
 
 .promo{
-     background:white;
+    background:white;
     padding: 5px 30px;
-    border: 1px solid black;
+    border: 1px solid purple;
     border-radius: 20px;
     text-decoration: none;
     color: black; 
@@ -60,14 +126,16 @@ header {
 }
 #big-promo h1 {
     font-size:33px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /* Product Features */
 
 .product-features {
- display:flex;
-    border-right:1px solid black;
-    border-left:1px solid black;
+    display:flex;
+    border-right:1px solid pink;
+    border-left:1px solid pink;
+    background:white;
 }
 
 .product-image{
@@ -80,8 +148,16 @@ header {
 }
 
 .feature-image{
-    width:200px;
-    height: 200px;
+    width:225px;
+    height: 300px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+}
+
+.feature-images{
+    width:300px;
+    height: 300px;
     margin:0 auto;
     border-radius:50%;
     overflow:hidden;
@@ -89,34 +165,40 @@ header {
 
 .buy-it-now {
     display:flex;
-     border-right:1px solid black;
-    border-left:1px solid black;
-    border-bottom: 1px solid black;
+     border-right:1px solid pink;
+    border-left:1px solid pink;
+    border-bottom: 1px solid pink;
    align-content: center;
+    background:pink;
 }
 
 .product-info {
     text-align: right;
-
     margin-bottom: 30px;
    padding: 20px;
     
     
 }
 #product-reviews {
-    border-right:1px solid black;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-    background-color:grey;
+    border-right:1px solid pink;
+    border-left: 1px solid pink;
+    border-bottom: 1px solid pink;
+    background-image:url(sprinkles.png);
     padding: 50px;
     text-align: center;
 }
+
+.product-image{
+    align-content: center;
+    width:350px;
+}
+
 footer {
     display:flex;
     background:white;
-     border-right:1px solid black;
-    border-left: 1px solid black;
-    border-bottom:1px solid black;
+     border-right:1px solid pink;
+    border-left: 1px solid pink;
+    border-bottom:1px solid pink;
     padding:15px 10px 15px 10px;
     font-size:12px;
 }
@@ -125,7 +207,7 @@ footer {
 }
 
 .footer_links a {
-       text-decoration: none;
+    text-decoration: none;
     color:black;  
     margin: 15px;
 }
