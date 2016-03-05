@@ -36,7 +36,7 @@
 
 #header {
     position: relative;
-    height: 500px;
+    height: 515px;
     background-image:url(green.jpg);
     padding: 25px;
     margin-bottom:10px;
@@ -240,6 +240,25 @@ p{
     border: 5px solid lightgoldenrodyellow;
     border-radius: 500px;
     height:300px;
+    top:165px;
+    margin:auto;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(9, 10, 5, .75);
+box-shadow: 0px 0px 50px 5px rgba(9, 10, 5, .75);
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+.me:hover{
+    -webkit-box-shadow: 0px 0px 15px 10px rgba(250, 250, 210, .75);
+box-shadow: 0px 0px 15px 10px rgba(250, 250, 210, .75);
+}
+
+.me2 {
+    display:flex;
+    position:relative;
+    border: 5px solid lightgoldenrodyellow;
+    border-radius: 500px;
+    height:300px;
     top:150px;
     margin:auto;
 }
@@ -251,17 +270,6 @@ ul {
     font-size: 22px; 
 }
 
-.link{
-    color:#ff7733;
-}
-
-.move{
-    margin:10px;
-}
-
-.move2{
-    margin:10px;
-}
 
 footer { 
     border: 1px solid; 
