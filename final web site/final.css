@@ -1,15 +1,14 @@
 *{
     box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #box{
     position:fixed;
-    top:0px;
-    bottom:0px;
     left:0px;
-    right:0px;
+    top:0px;
     width:100%;
-    height:2000px;
+    height:100%;
     background-image:url(sparkles1.jpg);
 }
 
@@ -20,7 +19,6 @@
     margin:auto;  
     border: 7px solid purple;
     width: 1000px;
-    height:2000px;
 }
 
 header{
@@ -35,7 +33,6 @@ header{
     text-decoration: none;
     padding:7px 10px 7px 10px;
     border-radius:10px;
-    font-family: 'Open Sans Condensed', sans-serif;
     top:50px;
     left:60px;
     font-size:20px
@@ -43,19 +40,19 @@ header{
 
 .branding{
     margin-left: auto;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .sign-up{
-    top:100px;
-    height:300px;
+    display:inline-block;
     width:100%;
     text-align:center;
+    background-image:url(sparkles1.jpg);
+    padding-bottom:70px;
 }
 
 .hh1{
     color:white;
-    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 40px;
     padding-top:30px;
     margin-bottom:30px;
@@ -63,7 +60,6 @@ header{
 
 .p1{
     color:white;
-    font-family: 'Open Sans Condensed', sans-serif;
     width:450px;
     left:0px;
     right:0px;
@@ -74,10 +70,78 @@ header{
 .hp{
     color:white;
     text-decoration: none;
-    font-family: 'Open Sans Condensed', sans-serif;
     background:black;
     padding:5px 30px 5px 30px;
     border-radius:10px;
     font-size:25px;
-    margin:50px;
+}
+
+.product-features{
+    background-image:url(blackg.jpg);
+    display:flex;
+    padding:20px;
+    padding-top:60px;
+}
+
+.product-features p{
+    color:white;
+    padding:20px;
+}
+
+.next-feature{
+    position:relative;
+    background-image: url(blackg.jpg);
+    height:450px;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.feature-image{
+    float: right;
+    clear:left;
+    margin-left:20px;
+}
+
+.nfh1{
+    font-size:30px;
+    margin-top:30px;
+}
+
+.next-feature p{
+    margin-bottom:60px;
+}
+
+.next-feature a{
+    color:white;
+    text-decoration: none;
+    font-size:25px;
+    border-radius:10px;
+    padding:5px 30px;
+    border: 2px solid purple;
+}
+
+footer{
+    display:flex;
+    position:relative;
+    color:white;
+    background:black;
+    height:116px;
+}
+
+.button2{
+    position:relative;
+    color:white;
+    text-decoration: none;
+    padding:7px 10px 7px 10px;
+    border-radius:10px;
+    font-size:20px;
+    left:650px;
+    top:20px;
+}
+
+footer p{
+    position:relative;
+    top:50px;
+    left:362px;
 }
