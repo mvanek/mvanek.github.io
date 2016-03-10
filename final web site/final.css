@@ -4,7 +4,7 @@
 }
 
 #box{
-    position:fixed;
+    position:;
     left:0px;
     top:0px;
     width:100%;
@@ -13,7 +13,7 @@
 }
 
 #wrap {
-    position:absolute;
+    position:;
     left:0;
     right:0;
     margin:auto;  
@@ -132,7 +132,6 @@ footer{
 .button2{
     position:relative;
     color:white;
-    text-decoration: none;
     padding:7px 10px 7px 10px;
     border-radius:10px;
     font-size:20px;
@@ -144,4 +143,72 @@ footer p{
     position:relative;
     top:50px;
     left:362px;
+}
+
+.featurepage{
+    background-image: url(blackg.jpg);
+}
+
+.feature2{
+    width:500px;
+    display:;
+    color:white;
+}
+
+.fimage{
+    float:left;
+    clear:right;
+}
+
+.feature2 h1{
+    display:inline-block;
+    text-align:center;
+    font-size:25px;
+}
+
+
+.feature2 p{
+    display:inline-block;
+    text-align:center;
+}
+
+.morefeature{
+    position:relative;
+    background-image:url(blackg.jpg);
+    padding:40px;
+    color:white;
+}
+
+.cool{
+    width:800px;
+    height:400px;
+    margin-left:55px;;
+}
+
+.morefeature p{
+    text-align: center;
+    width:600px;
+    margin-left:170px;
+    font-size:20px;
+}
+
+.images{
+    padding:20px;
+    margin-left:10px;
+    margin-bottom:40px;
+}
+
+.images p{
+    color:white;
+    text-align:center;
+    width:600px;
+    font-size:20px;
+    margin-left:175px;
+    background:black;
+    border-radius:15px;
+    padding:7px;
+}
+
+.images a{
+    margin-left:400px;
 }
