@@ -19,6 +19,7 @@
     margin:auto;  
     border: 7px solid purple;
     width: 1000px;
+    height:100%;
 }
 
 header{
@@ -90,11 +91,12 @@ header{
 
 .next-feature{
     position:relative;
-    background-image: url(blackg.jpg);
     height:450px;
     color:white;
     text-align:center;
     padding:30px;
+    margin-top:40px;
+    margin-bottom:40px;
 }
 
 .feature-image{
@@ -118,7 +120,7 @@ header{
     font-size:25px;
     border-radius:10px;
     padding:5px 30px;
-    border: 2px solid purple;
+    background:black;
 }
 
 footer{
@@ -194,21 +196,147 @@ footer p{
 
 .images{
     padding:20px;
-    margin-left:10px;
-    margin-bottom:40px;
+    background-image:url(blackg.jpg);
+    width:100%;
+    
 }
 
-.images p{
+.imagespara{
     color:white;
     text-align:center;
     width:600px;
-    font-size:20px;
+    font-size:25px;
+    margin-top:80px;
     margin-left:175px;
-    background:black;
-    border-radius:15px;
-    padding:7px;
+    margin-bottom:40px;
 }
 
-.images a{
-    margin-left:400px;
+.imagespara a{
+    display:inline-block;
+    margin-bottom:40px;
+    margin-top:30px;
+}
+
+.bigimage img{
+    margin-top:80px;
+}
+
+.pricing{
+    display:inline-flex;
+}
+
+.price{
+    position:relative;
+    left:80px;
+    text-align: center;
+    color:white;
+    background:black;
+    width:200px;
+    margin:40px;
+    padding-bottom:25px;
+    margin-top:80px;
+}
+
+.price p{
+    font-size:15px;
+}
+
+.pricing a{
+    color:white;
+    text-decoration: none;
+    
+}
+
+.price h1{
+    font-size:60px;
+    margin-bottom:0px;
+}
+
+.pb{
+    font-style:italic;
+}
+
+.price h2{
+    font-size:20px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.price h3{
+    font-size:20px;
+    font-style: italic;
+    margin-top:0px;
+    margin-bottom:25px;
+}
+
+.bold{
+    font-weight:bolder;
+    font-style:italic;
+}
+
+.buynow1{
+    display:inline-block;
+    margin-top:120px;
+}
+
+.space{
+    margin-top:30px;
+}
+
+.buynow2{
+    display:inline-block;
+    margin-top:40px;
+}
+
+.buynow3{
+    display:inline-block;
+    margin-top:5px;
+}
+
+.bottom{
+    text-align:center;
+    color:white;
+    width:600px;
+    height:300px;;
+    margin-left:200px;
+}
+
+.bottom h1{
+    font-size:40px;
+    margin-bottom:0px;
+}
+
+.bottom p{
+    font-size:20px;
+    margin-bottom:40px;
+}
+
+.info{
+    display:inline-block;
+    color:white;
+    padding:40px;
+    padding-top:0px;
+    background-image:url(blackg.jpg);
+    font-size:20px
+}
+
+.info h1{
+    font-size:30px;
+}
+
+.wave{
+    float:right;
+    clear:left;
+    margin-left:20px;
+}
+
+.coolio{
+    float:left;
+    clear:right;
+    margin-bottom:40px;
+    margin-right:20px;
+}
+
+.lasti{
+    margin-bottom:40px;
 }
